@@ -1,0 +1,32 @@
+.f-semi {
+    font-weight: 600;
+}
+
+.main-cl {
+    color: $main-cl;
+}
+
+.text {
+    color: $g-6C70-cl;
+    @include lh(22, 14);
+}
+
+
+
+.footer {
+    .wpcf7 {
+        .wpcf7-response-output {
+            margin: 0;
+            padding: 0;
+            border: none;
+            font-size: 12px;
+            font-style: italic;
+            color: #dc3232;
+            margin-bottom: 5px;
+        }
+        .wpcf7-not-valid-tip{
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    }
+}

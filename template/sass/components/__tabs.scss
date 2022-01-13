@@ -1,0 +1,35 @@
+.tab {
+    .tab-link {
+        display: flex;
+        position: relative;
+        border-bottom: 1px blue solid;
+    }
+
+    .tab-line {
+        transition: all .3s ease;
+        height: 1px;
+        background-color: red;
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    .tab-title {
+        padding: 10px 20px;
+        cursor: pointer;
+        position: relative;
+        &.active {
+            color: red;
+
+
+        }
+    }
+
+    .tab-content-box {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+}
